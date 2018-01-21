@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	      body{
+	         background-color: white;
+	         background-repeat: no-repeat;
+	         background-size: cover;
+	         margin-top: 0px;
+	         margin-bottom: 0px;
+	         
+	      }
+	      .navigation-bar{
+	         background-color: cyan;
+	         border-style: solid;
+	         border-color: black;
+	         border-width: 1px;
+	         
+	      }
+	      .nav-ul{
+	         list-style-type: none;
+	         margin: 0;
+	         padding: 0;
+	         overflow: hidden;
+	         background-color: none;
+	      }
+	      .nav-option{
+	         float: right;
+	         display: inline;
+	         color: lightgreen;
+	         text-align: center;
+	         padding: 16px;
+	         text-decoration: none;
+	         font-family: Times New Roman;
+	         font-size: 1.4em;
+	         
+	      }
+	      a:link {
+	         color: lightgreen;
+	         text-decoration: none;
+	         background-color: none;
+	      }
+
+	      a:hover,a:active,a:visited {
+	         color: red;
+	      }
+	      .avatar{
+	         margin: auto; 
+	         display: block;
+	      }
+
+	      h1 {
+	         margin-top:20px;
+	         margin-bottom:40px;
+	         font-family: "Times New Roman";
+	         font-size:4em;
+
+	      }
+
+	      h3 {
+	         margin-top:20px;
+	         margin-bottom:40px;
+	         font-family: "Times New Roman";
+	         font-size:2em;
+	      }
+
+	      .section-about-me{
+	         margin-top:60px;;
+	         margin:bottom:60px;
+
+	      }
+	      p.aboutme-text{
+	         font-size: 1.20em;
+	         font-family: font-family: "Times New Roman";
+	         color: black;
+
+	      }
+
+	      ul.skill-list {
+	         margin-top:0px;
+	         font-size: 1.20em;
+	         font-family: font-family: "Times New Roman";
+	         color:black;
+	      }
+
+	      .line {
+	         display: block;
+	         margin-top: 2.5em;
+	         margin-bottom: 2.5em;
+	         margin-left: auto;
+	         margin-right: auto;
+	         border-style:solid;
+	         border-width: 0.7px;
+	         color:white;
+	      }
+	      .section-skills{
+	         margin-top:auto;
+	         margin:bottom:40px;
+	         font-size: 1.20em;
+	         font-family: font-family: "Times New Roman";
+	         color:black;
+
+	      }
+	      .skill-list{
+	         font-size: 1.20em;
+	         font-family: font-family: "Times New Roman";
+	         color:black;
+	         margin-top:auto;
+	      }
+	      .projects{
+	         border:1px solid white;
+	         margin:30px;
+	         border-radius:3%;
+	         padding:2em;
+	      }
+	      .thumbnail{
+	       background:none;
+	       border:none;
+	      }
+	      .project-images{
+	         margin: auto;
+	         width: 300px;
+	         height:300px;
+	         max-height:300px;
+	      }
+
+	      .section-contact{
+	          margin-bottom:30px;
+	          padding:auto;
+	          
+	          
+	      }
+
+	      .contact-text{
+	         font-size: 1.20em;
+	         font-family: font-family: "Times New Roman";
+	         color:black;
+	         margin-top:10px;;
+	         text-align: justify;
+	          
+	      }
+	      #email{
+	          color: blue;
+	          text-decoration: underline;
+	      }
+
+	      footer{
+	          margin-top: 50px;
+	          padding-top: 0px;
+	          padding-bottom: 0px;
+	          margin-bottom: 0px;
+
+	      }
+
+	      .footer-logo{
+	         display: flex;
+	         justify-content: center;
+	       margin-left: auto;
+	       margin-right: auto;
+	      }
+
+	</style>
+</head>
+<body>
+	<!-- Navigation starts-->
+	<nav class="container-fluid">
+		<div class="row">
+			<div class="col navigation-bar" style="background-color:Black">
+				<ul class="nav-ul">
+					<li class="nav-option">
+						<a href="#aboutme">About Me</a>
+					</li>
+					<li class="nav-option">
+						<a href="#projects">Projects</a>
+					</li>
+					<li class="nav-option">
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav><!-- Navigation ends-->
+	<!--  Header starts-->
+	<div class="container-fluid" style=" margin-top:20px;margin-left:0px;padding-left:0px">
+		<div class="row">
+			<header class="col-md-12 text-center text-primary">
+				<img alt="Sam Lee" class="img-responsive avatar" src="https://job-images.com/ja-material/114-occupation-illustration.jpg" style="width:420px;height:315px;">
+				<h1>Sam Lee</h1>
+				<h3>College Student, IT Student Assistant at the California Department of Public Health, and Computer Science and Engineering Major</h3>
+			</header>
+		</div>
+	</div><!--  Header ends-->
+	<!--section about me starts -->
+	<div class="container-fluid">
+		<div class="row">
+			<section class="col section-about-me">
+				<h2 class="text-primary" id="aboutme">About Me:</h2>
+				<p class="aboutme-text">Hi, my name is Sam Lee. I am a enthusiastic, hard-working, and self motivated sophomore at Sacramento State, majoring in computer science and engineering, who is always open for opportunities to gain experience in the computer science and engineering field in order to ultimately make a impact in the workforce and community. I seek a software internship using my coding coursework and knowledge to help an organization develop killer applications as well as a hardware/electronics engineering internship designing amazing technology products like super computers and mobile phones. Furthermore, I would like to touch on information technology and see how information is captured and transform into a reality. In addition to my technical aptitude, I bring the desire to serve, mentor and teach others, both personally and professionally.</p>
+				<ul class="skill-list">
+					<li>Sophomore</li>
+					<li>Officer of IEEE</li>
+					<li>Officer of ACM</li>
+					<li>Officer of NSBE</li>
+					<li>Officer of AISES</li>
+					<li>Dedicated and Outstanding Member of SHPE</li>
+					<li>Dedicated and Outstanding Member of SWE</li>
+				</ul>
+			</section>
+		</div>
+	</div><!--section about me ends -->
+	<!--section skills starts -->
+	<div class="container-fluid">
+		<div class="row">
+			<section class="col">
+				<hr class="line">
+				<h2 class="text-primary">Skills:</h2>
+				<ul class="skill-list">
+					<li>Java</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Bootstrap</li>
+					<li>JavaScript</li>
+				</ul>
+			</section>
+		</div>
+	</div><!--section skills ends -->
+	<!--section Projects starts -->
+	<section class="container-fluid">
+		<h2 class="text-primary" id="projects">Projects:</h2><!--Project Placeholder container -->
+		<div class="row projects">
+			<div class="col">
+				<div class="thumbnail">
+					<a href="https://codepen.io/samlee916/pen/EvEEjE" target="_blank" title="Tribute Page To Novak Djokovic"><img alt="Novak Djokovic" class="img-thumbnail project-images" src="http://images.indianexpress.com/2015/12/novakdjokovicreuters-m.jpg"></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="thumbnail">
+					<a href="https://codepen.io/samlee916/pen/jGrmVv" target="_blank" title="Pong Game"><img alt="Pong Game" class="img-thumbnail project-images" src="http://hausnes.no/blogg/wp-content/uploads/pong-game-screenshot.jpg"></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="thumbnail">
+					<a href="https://codepen.io/samlee916/pen/oGxEeZ" target="_blank" title="A Calculator"><img alt="Calculator" class="img-thumbnail project-images" src="https://images.sftcdn.net/images/t_optimized,f_auto/p/223fac0c-a4d1-11e6-a36a-00163ed833e7/1999783221/basic-calculator-screenshot.png"></a>
+				</div>
+			</div>
+			<div class="w-100"></div>
+			<div class="col">
+				<div class="thumbnail">
+					<a href="https://codepen.io/samlee916/pen/EwdRLy" target="_blank" title="Snake Game"><img alt="Snake Game" class="img-thumbnail project-images" src="https://llerrah.com/upload/cards/snake-game.jpg"></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="thumbnail">
+					<a href="#" target="_blank" title="In Progess "><img alt="In Progress" class="img-thumbnail project-images" src="http://images.clipartpanda.com/progress-clipart-e9022cd0abbf53461b6cdcafa10e4674.jpg"></a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="thumbnail">
+					<a href="#" target="_blank" title="In Progess "><img alt="In Progess " class="img-thumbnail project-images" src="http://images.clipartpanda.com/progress-clipart-e9022cd0abbf53461b6cdcafa10e4674.jpg"></a>
+				</div>
+			</div>
+		</div>
+	</section><!--section Contact starts -->
+	<div class="container-fluid">
+		<section id="contact">
+			<h2 class="text-primary section-contact">Contact:</h2>
+			<div class="contact-form">
+				<div class="row">
+					<div class="col-sm-4">
+						<p class="contact-text">Please feel free to contact me if you are looking for someone to hire for your company. I assure that I will always do my best and will work hard.<br>
+						<br>
+						Or if you have any questions please do not hesitate to write me an email at <span id="email">slee5331@gmail.com.</span><br>
+						<br>
+						If you want to know more about me please take a look at my LinkedIn Profile by click the LinkedIn image on the bottom of my website.<br></p>
+					</div>
+					<div class="col-sm-8 contact">
+						<form action="#" method="post">
+							<div class="form-group">
+								<label for="Name">Name:</label> <input class="form-control" id="name" type="name">
+							</div>
+							<div class="form-group">
+								<label for="email">Email:</label> <input class="form-control" id="email" type="email">
+							</div>
+							<div class="form-group">
+								<label for="message">Message:</label> 
+								<textarea class="form-control" cols="20" id="message" rows="10"></textarea>
+							</div>
+							<div class="form-group">
+								<button class="btn btn-default" type="submit">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div><!--section  contact ends -->
+	<div class="container-fluid">
+		<div class="row">
+			<footer class="col navigation-bar" style="background-color:Black;border-radius:1px">
+				<div class="footer-logo">
+					<a href="https://www.linkedin.com/in/slee98/" target="_blank"><img alt="logo " height="50px" src="https://yt3.ggpht.com/-CepHHHB3l1Y/AAAAAAAAAAI/AAAAAAAAAAA/Z8MftqWbEqA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="50px"></a> <a href="https://my.orgsync.com/slee" target="_blank"><img alt="logo " height="50px" src="https://cdn1.orgsync.com/images/os-profile-pics/40u88ib2w0524ul_150.jpg?cover=1&s=200" width="50px"></a> <a href="https://github.com/samlee916" target="_blank"><img alt="logo " height="50px" src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" width="50px"></a>
+				</div>
+				<p class="text-center" style="font-family: 'Great Vibes', cursive; color: skyblue"><strong>Created, designed, developed, and coded by Sam Lee</strong></p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	      .sect1 {
+	    padding: 10px;
+	    border: 5px solid red;
+	   }
+
+	   .sect2 {
+	    padding: 10px;
+	    border: 5px solid blue;
+	   }
+
+	   .sect3 {
+	    padding: 10px;
+	    border: 5px solid green;
+	   }
+
+	   .sect4 {
+	    padding: 10px;
+	    border: 5px solid black;
+	   }
+
+	   .sect5 {
+	    padding: 10px;
+	    border: 5px solid violet;
+	   }
+
+	   .sect6 {
+	    padding: 10px;
+	    border: 5px solid purple;
+	   }
+
+	   .sect7 {
+	    padding: 10px;
+	    border: 5px solid lightgreen;
+	   }
+
+	   .sect8 {
+	    padding: 10px;
+	    border: 5px solid aqua;
+	   }
+
+	   body {
+	    margin-top: 40px;
+	    margin-right: 40px;
+	    margin-bottom: 40px;
+	    margin-left: 40px;
+	   }
+
+	   h1 {
+	    text-align: center;
+	   }
+
+	   .brown-text {
+	    color: brown;
+	    text-align: center;
+	    font-size: 30px;
+	    font-family: Sans-serif;
+	   }
+
+	   .maroon-text {
+	    color: maroon;
+	    text-align: center;
+	    font-size: 30px;
+	   }
+
+	   .yellow-text {
+	    color: yellow;
+	    text-align: center;
+	    font-size: 30px;
+	    font-family: Verdana;
+	   }
+
+	   .red-text {
+	    color: red;
+	    text-align: center;
+	    font-size: 30px;
+	    font-family: Tahoma;
+	   }
+
+	   .green-text {
+	    color: green;
+	    font-size: 30px;
+	    text-align: center;
+	    font-family: Arial;
+	    margin-bottom: 0;
+	   }
+
+	   .gray-text {
+	    color: gray;
+	    text-align: center;
+	    font-size: 30px;
+	    font-family: Georgia;
+	   }
+
+	   .orange-text {
+	    color: orange;
+	    text-align: center;
+	    font-size: 30px;
+	    font-family: Helvetica;
+	   }
+
+	   .bio-list {
+	    margin-bottom: 0;
+	   }
+
+	   p {
+	    text-align: center;
+	   }
+
+	   .smaller-image {
+	    height: 300px;
+	   }
+
+	   .thin-red-border {
+	    border-color: red;
+	    border-width: 10px;
+	    border-style: solid;
+	   }
+
+	   .thick-green-border {
+	    border-color: green;
+	    border-width: 15px;
+	    border-style: solid;
+	    border-radius: 15px;
+	    border-radius: 50%;
+	   }
+
+	   img {
+	    display: block;
+	    margin: auto;
+	    width: 30%;
+	   }
+
+	   blockquote {
+	    font-size: 20px;
+	   }
+
+	   .orange-background {
+	    background-color: orange;
+	   }
+
+	   .cyan-background {
+	    background-color: cyan;
+	   }
+
+	   .greenyellow-background {
+	    background-color: greenyellow;
+	   }
+
+	   .lavender-background {
+	    background-color: lavender;
+	   }
+
+	   .khaki-background {
+	    background-color: khaki;
+	   }
+
+	   .lime-background {
+	    background-color: lime;
+	   }
+
+	   .lightgreen-background {
+	    background-color: lightgreen;
+	   }
+
+	   .lightpink-background {
+	    background-color: lightpink;
+	   }
+
+	   .flex-box1 {
+	    background-color: gold;
+	    width: 500px;
+	    height: 75px;
+	    margin: 10px;
+	   }
+
+	   .flex-box2 {
+	    background-color: gainsboro;
+	    width: 500px;
+	    height: 230px;
+	    margin: 10px;
+	   }
+
+	   .flex-box3 {
+	    background-color: cornflowerblue;
+	    width: 500px;
+	    height: 365px;
+	    margin: 10px;
+	   }
+
+	   .flex-box4 {
+	    background-color: burlywood;
+	    width: 500px;
+	    height: 335px;
+	    margin: 10px;
+	   }
+
+	   .flex-box5 {
+	    background-color: deepskyblue;
+	    width: 500px;
+	    height: 90px;
+	    margin: 10px;
+	   }
+
+	   .flex-box6 {
+	    background-color: hotpink;
+	    width: 500px;
+	    height: 200px;
+	    margin: 10px;
+	   }
+
+	   .flex-box7 {
+	    background-color: floralwhite;
+	    width: 500px;
+	    height: 150px;
+	    margin: 10px;
+	   }
+
+	   .flex-box8 {
+	    background-color: snow;
+	    width: 750px;
+	    height: 275px;
+	    margin: 10px;
+	   }
+	</style>
+	<title></title>
+</head>
+<body background="http://ak2.picdn.net/shutterstock/videos/499069/thumb/1.jpg">
+	<div class="container">
+		<div class="lavender-background mb-3 sect8">
+			<h1 style="color: violet;">A Tribute To Novak Djokovic</h1><img alt="Novak Djokovic Face" class="smaller-image thin-red-border" src="http://www.atpworldtour.com/-/media/tennis/players/head-shot/2016/djokovic_head_16.png">
+			<p class="green-text">By Sam Lee</p>
+		</div>
+		<div class="greenyellow-background mb-3 sect1">
+			<p class="red-text"><a href="https://en.wikipedia.org/wiki/Novak_Djokovic">His Biography</a></p>
+			<ol class="bio-list">
+				<li>
+					<a href="http://novakdjokovic.com/en/">His Website</a>
+				</li>
+				<li>
+					<a href="http://www.atpworldtour.com/en/players/novak-djokovic/d643/overview">ATP World Tour</a>
+				</li>
+			</ol>
+		</div>
+		<div class="cyan-background mb-3 sect2">
+			<div class="row">
+				<div class="col">
+					<h2 class="brown-text">Who Is He?:</h2>
+				</div>
+				<div class="col">
+					<p class="flex-box1">Serbian professional tennis player Novak Djokovic won his first of multiple Grand Slam championships in 2008 and took over the world's No. 1 ranking in 2011.</p>
+				</div>
+				<div class="w-100"></div>
+				<div class="col"><img alt="Novak Djokovic Face" src="http://www.vidatennis.com.au/wp-content/uploads/novak-djokovic.jpg" style="width:420px;height:315px;"></div>
+				<div class="col">
+					<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/W0nXUxhEexQ" width="420"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="khaki-background mb-3 sect3">
+		<h3 class="yellow-text">Summary:</h3>
+		<div class="row">
+			<div class="col">
+				<ul class="flex-box2">
+					<li>Born in Serbia in 1987, Novak Djokovic began playing tennis at age 4, and was sent to train in Germany at age 13.</li>
+					<li>After a steady ascent to the top levels of the sport, he won the Australian Open in 2008 and led the Serbian national team to its first Davis Cup win in 2010.</li>
+					<li>In 2011, he claimed three of four Grand Slams and compiled a 43-match winning streak en route to the world's No. 1 ranking. With his first French Open win in 2016, he became the first man since Rod Laver in 1969 to hold all four major titles at once.</li>
+				</ul>
+			</div>
+			<div class="col">
+				<div>
+					<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/QlyPzwNZVHU" width="420"></iframe>
+				</div>
+			</div>
+		</div><img alt="Novak Djokovic Face" class="thick-green-border" src="http://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/03/07/Pictures/novak-djokovic_46c1548a-030a-11e7-87c7-5947ba54d240.jpg"></div>
+		<div class="orange-background mb-3 sect4">
+			<h4 class="green-text">Early Life:</h4>
+			<div class="row">
+				<div class="col-6">
+					<p align="left" class="flex-box3">Novak Djokovic was born on May 22, 1987, in Belgrade, Serbia. Father Srdjan and mother Dijana owned the company Family Sports, which had three restaurants and a tennis academy. Djokovic's father, uncle and aunt were all professional skiers, and his father also excelled at soccer, but Djokovic was a tennis prodigy. In the summer of 1993, at 6 years old, Djokovic was spotted by Yugoslavian tennis legend Jelena Gencic at his parents' sports complex. Gencic then worked with Djokovic for the next six years. During this time, the war in former Yugoslavia and the bombing of Belgrade meant that, for almost three months, Djokovic and his family would spend a few hours in the middle of each night in the basement. Djokovic has said that the hardships of war drove him to pursue tennis with even greater determination. At 13, he was sent to the Pilic Academy in Munich, Germany, to pursue higher levels of competition. In 2001, at age 14, he began his international career.</p>
+				</div>
+				<div class="col" style="text-align: center">
+					<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/Oeid5ioDF2Y" width="420"></iframe>
+				</div>
+			</div>
+			<div><img alt="Novak Djokovic Face" class="thin-red-border" height="290px" src="https://images.successstory.com/adminimg/image_uploads/content_images/novak-djokovic-img16097_668_1446667415.jpg" width="390px"></div>
+		</div>
+		<div class="lime-background mb-3 sect5">
+			<h5 class="gray-text">Career Highlights/Achievements:</h5><img alt="Novak Djokovic Face" class="thin-red-border" src="http://img.skysports.com/14/07/768x432/R2ZDRxbjp9VxnvRznHWhi4DcNnKaGNWU.jpg?20160323143409">
+			<div class="row">
+				<div class="col">
+					<ol class="flex-box4">
+						<li style="list-style: none; display: inline">
+							<p><strong>Australian Open Titles:</strong></p>
+						</li>
+						<li>2008 - Australian Open - Novak Djokovic Vs. Jo-Wilfried Tsonga - 4-6, 6-4, 6-3, 7-6(2)</li>
+						<li>2011 - Australian Open - Novak Djokovic Vs. Andy Murray - 6-4, 6-2, 6-3</li>
+						<li>2012 - Australian Open - Novak Djokovic Vs. Rafael Nadal - 5-7, 6-4, 6-2, 6-7, 7-5</li>
+						<li>2013 - Australian Open - Novak Djokovic Vs. Andy Murray - 6-7, 7-6, 6-3, 6-2</li>
+						<li>2015 - Australian Open - Novak Djokovic Vs. Andy Murray - 7-6(5), 6-7(4), 6-3, 6-0</li>
+						<li>2016 - Australian Open - Novak Djokovic Vs. Andy Murray - 6-1, 7-5, 7-6(3)</li>
+					</ol>
+				</div>
+				<div class="col">
+					<ol class="flex-box5">
+						<li style="list-style: none; display: inline">
+							<p><strong>French Open Title:</strong></p>
+						</li>
+						<li>2016 - French Open - Novak Djokovic Vs. Andy Murray - 3-6, 6-1, 6-2, 6-4</li>
+					</ol>
+				</div>
+				<div class="w-100"></div>
+				<div class="col">
+					<ol class="flex-box6">
+						<li style="list-style: none; display: inline">
+							<p><strong>Wimbledon Titles:</strong></p>
+						</li>
+						<li>2011 - Wimbledon - Novak Djokovic Vs. Rafael Nadal - 6-4, 6-1, 1-6, 6-3</li>
+						<li>2014 - Wimbledon - Novak Djokovic Vs. Roger Federer - 6-7(7), 6-4, 7-6(4), 5-7, 6-4</li>
+						<li>2015 - Wimbledon - Novak Djokovic Vs. Roger Federer - 7-6(1), 6-7(10), 6-4, 6-3</li>
+					</ol>
+				</div>
+				<div class="col">
+					<ol class="flex-box7">
+						<li style="list-style: none; display: inline">
+							<p><strong>U.S. Open:</strong></p>
+						</li>
+						<li>2011 - US Open - Novak Djokovic Vs. Rafael Nadal - 6-2, 6-4, 6-7, 6-1</li>
+						<li>2015 - US Open - Novak Djokovic Vs.Roger Federer - 6-4, 5-7, 6-4, 6-4</li>
+					</ol>
+				</div>
+			</div>
+			<p><strong>Novak Dkjokovic won a total of 12 grand slams so far.</strong></p>
+			<div style="text-align: center">
+				<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/ww7yxtwKMPE" width="420"></iframe>
+			</div>
+		</div>
+		<div class="lightgreen-background mb-3 sect6">
+			<h6 class="maroon-text">Personal Life:</h6>
+			<p class="flex-box8">Djokovic speaks Serbian, Italian, German and English. His two younger brothers, Marko (born in 1991) and Djordje (born in 1995), are both in school and play tennis. Djokovic's lighthearted personality has earned him the nickname "Djoker," a combination of his surname and the word "joker." He is known for his humorous off-court impersonations of fellow tennis players. Djokovic is a member of the Serbian Orthodox Christian church, and in April 2011, he was awarded the Order of St. Sava, 1st class, the highest decoration given, "for his demonstrated love for the church and the Serbian people." He participates in the Champions for Peace club, created by Peace and Sport, a Monaco-based international organization. He created the Novak Djokovic Foundation to help disadvantaged children in Serbia obtain an education and provide resources to lead productive and healthy lives. Djokovic began dating Jelena Ristic in 2005. The couple became engaged in 2013 and wed on July 10, 2014, just days after his Wimbledon win. The couple welcomed their first child, a son named Stefan, on October 21, 2014.</p>
+			<div class="row">
+				<div class="col"><img alt="Novak Djokovic and His Wife" class="smaller-image thin-red-border" src="https://www.thesun.co.uk/wp-content/uploads/2017/02/sport-preview-novak-djokovic-and-wife.jpg?strip=all&w=1200&h=800&crop=1" style="width:420px;height:315px;"></div>
+				<div class="col">
+					<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/F2O0uTlFyp4" width="420"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class=" lightpink-background sect7">
+			<blockquote style="text-align: center">
+				<q><strong>You have to consistently be successful to be one of the top players in the world, and everything is possible in life.</strong></q>
+				<section>
+					<cite><strong>-Novak Djokovic</strong></cite>
+				</section>
+			</blockquote><img alt="Novak Djokovic Quote" class="thick-green-border" src="https://www.fearlessmotivation.com/wp-content/uploads/2016/02/Novak-Djokovic-Quotes-Be-Successful.jpg">
+			<p><strong>This page was written and coded by Sam Lee.</strong></p>
+		</div>
+	</div>
+</body>
+</html>

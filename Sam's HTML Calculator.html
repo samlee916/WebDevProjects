@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>My Calculator</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+	<style>
+	 * {
+	    padding: 0px;
+	    margin: 0px
+	   }
+
+	   html {
+	    background-color: floralwhite;
+	   }
+
+	   hr {
+	    height; 2px;
+	    background-color: green;
+	   }
+
+	   h1 {
+	    text-align: center;
+	    color: red;
+	    height: 50px;
+	    font-size: 50px;
+	    padding: 35px;
+	   }
+
+	   #container {
+	    position: relative;
+	    width: 300px;
+	    border: 3px solid yellow;
+	    margin: 30px auto;
+	    border-radius: 5px;
+	    background-color: azure;
+	   }
+
+	   input[type=text] {
+	    position: relative;
+	    display: block;
+	    width: 90%;
+	    margin: 12px auto 0px auto;
+	    font-size: 20px;
+	    border: 1px solid lightgrey;
+	    background-color: white;
+	   }
+
+	   input[type=button] {
+	    postion: relative;
+	    background-color: greenyellow;
+	    width: 20%;
+	    margin: 2%;
+	    font-size: 20px;
+	    font-weight: bold;
+	    border-radius: 10%;
+	   }
+
+	   input[type=button]:hover {
+	    background-color: floralwhite;
+	   }
+
+	   input[type="text"]:disabled {
+	    color: black;
+	   }
+
+	   p {
+	    font-size: 25px;
+	    text-align: center;
+	   }
+	</style>
+	
+	<script>
+	   function calculate() {
+	    document.calc.output.value = eval(document.calc.output.value);
+	   }
+
+	   function erase() {
+	    document.calc.output.value = "";
+	   }
+
+	   function entries(s) {
+	    document.calc.output.value += s;
+	   }
+	</script>
+
+<body>
+	<h1>A Basic Calculator</h1>
+	<hr>
+	<br>
+	<div id="container">
+		<form id="calc" name="calc">
+			<input name="output" placeholder="0" type="text"><br>
+			<input onclick="entries('1')" type="button" value=" 1 "> <input onclick="entries('2')" type="button" value=" 2 "> <input onclick="entries('3')" type="button" value=" 3 "> <input onclick="entries('/')" type="button" value=" / "><br>
+			<input onclick="entries('4')" type="button" value=" 4 "> <input onclick="entries('5')" type="button" value=" 5 "> <input onclick="entries('6')" type="button" value=" 6 "> <input onclick="entries('*')" type="button" value=" x "><br>
+			<input onclick="entries('7')" type="button" value=" 7 "> <input onclick="entries('8')" type="button" value=" 8 "> <input onclick="entries('9')" type="button" value=" 9 "> <input onclick="entries('-')" type="button" value=" - "><br>
+			<input onclick="entries('(')" type="button" value=" ( "> <input onclick="entries(')')" type="button" value=" ) "> <input onclick="entries('0')" type="button" value=" 0 "> <input onclick="entries('+')" type="button" value=" + "><br>
+			<input onclick="erase()" type="button" value=" C "> <input onclick="entries('.')" type="button" value=" . "> <input onclick="entries('%')" type="button" value=" % "> <input onclick="calculate()" type="button" value=" = "><br>
+		</form>
+	</div><br>
+	<hr>
+	<p>Created and Coded By Sam Lee</p>
+</body>
+
+</html>
